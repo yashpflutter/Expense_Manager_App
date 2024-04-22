@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 
 import 'package:google_fonts/google_fonts.dart';
-import 'package:expensemanager/Registerscreen.dart';
+import 'Registerscreen.dart';
 
+// ignore: camel_case_types
 class splashscreen extends StatefulWidget {
   const splashscreen({super.key});
   @override
   State createState() => _splashscreenState();
 }
 
+// ignore: camel_case_types
 class _splashscreenState extends State {
   @override
   Widget build(BuildContext context) {
