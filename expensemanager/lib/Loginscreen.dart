@@ -97,7 +97,7 @@ class _LoginscreenState extends State {
                       ],
                     ),
                     child: Center(
-                        child: Text("Sign Up",
+                        child: Text("Sign In",
                             style: GoogleFonts.poppins(
                                 fontWeight: FontWeight.w500,
                                 fontSize: 16,

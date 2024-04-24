@@ -28,7 +28,7 @@ class _RegisterscreenState extends State {
               padding: const EdgeInsets.all(40),
               // ignore: avoid_unnecessary_containers
               child: Container(
-                  height: 400,
+                  height: 446,
                   child: Column(
                     children: [
                       Container(
@@ -160,7 +160,7 @@ class _RegisterscreenState extends State {
                                       const Transactionscreen()));
                         },
                       ),
-                      const Spacer(),
+                      const SizedBox(height: 10),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [

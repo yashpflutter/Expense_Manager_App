@@ -22,3 +22,8 @@ flutter:
   assets:
     - Assets/splash.png
     - Assets/medicine.png
+    - Assets/subtract.png
+    - Assets/groups.png
+    - Assets/trash.png
+    - Assets/category.png
+    - Assets/aboutus.png

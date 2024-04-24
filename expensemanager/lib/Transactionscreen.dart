@@ -2,14 +2,10 @@
 // ignore: file_names
 // ignore_for_file: file_names
 
-import 'dart:ui';
 import 'Menudraweer.dart';
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter/widgets.dart';
+
 import 'package:intl/intl.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -210,11 +206,11 @@ class _TransactionscreeenState extends State {
             itemCount: 20,
             itemBuilder: (BuildContext context, int index) {
               return Padding(
-                padding: const EdgeInsets.all(10),
+                padding: const EdgeInsets.all(7),
                 child: Container(
                   color: Colors.white,
-                  height: 58,
-                  width: 361.5,
+                  height: 65,
+                  width: 350.5,
                   child: Padding(
                       padding: const EdgeInsets.all(7),
                       child: Row(
@@ -231,25 +227,30 @@ class _TransactionscreeenState extends State {
                               child: Image.asset('Assets/medicine.png'),
                             ),
                             const SizedBox(width: 15),
-                            Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Text(
-                                    "Medicine",
-                                    style: GoogleFonts.poppins(
-                                        fontWeight: FontWeight.w400,
-                                        fontSize: 15,
-                                        color:
-                                            const Color.fromRGBO(0, 0, 0, 1)),
-                                  ),
-                                  Text(
-                                      "Lorem Ipsum is simply dummy text of the ",
+                            Container(
+                              width: 190,
+                              height: 55,
+                              child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      "Medicine",
                                       style: GoogleFonts.poppins(
                                           fontWeight: FontWeight.w400,
-                                          fontSize: 10,
-                                          color: const Color.fromRGBO(
-                                              0, 0, 0, 0.8)))
-                                ]),
+                                          fontSize: 15,
+                                          color:
+                                              const Color.fromRGBO(0, 0, 0, 1)),
+                                    ),
+                                    Text(
+                                        "Lorem Ipsum is simply dummy text of the ",
+                                        style: GoogleFonts.poppins(
+                                            fontWeight: FontWeight.w400,
+                                            fontSize: 10,
+                                            color: const Color.fromRGBO(
+                                                0, 0, 0, 0.8)))
+                                  ]),
+                            ),
+                            const Spacer(),
                             Column(children: [
                               Row(
                                 children: [
