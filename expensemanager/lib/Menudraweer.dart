@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'category.dart';
+import 'graps.dart';
 
 void main() {
   runApp(const Menudraweer());
@@ -60,7 +61,12 @@ class _MenudraweerState extends State {
               ),
               const SizedBox(height: 20),
               GestureDetector(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const GraphScreen()));
+                },
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -87,7 +93,7 @@ class _MenudraweerState extends State {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => const Category()));
+                          builder: (context) => const CategoryScreen()));
                 },
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,

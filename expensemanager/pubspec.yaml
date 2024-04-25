@@ -11,6 +11,8 @@ dependencies:
     sdk: flutter
   google_fonts: ^6.2.1
   intl: ^0.19.0
+  pie_chart: ^5.4.0
+  plant_icons: ^0.0.3
 
 dev_dependencies:
   flutter_test:
@@ -27,3 +29,5 @@ flutter:
     - Assets/trash.png
     - Assets/category.png
     - Assets/aboutus.png
+    - Assets/food.png
+    - Assets/eclip.png
